@@ -34,12 +34,11 @@ body {
     	--custom-window-controls: on; /* turn off to use discord default window controls */
     	--window-control-size: 14px; /* size of custom window controls */
 
-    /* dms button icon options */
-    	--dms-icon: on; /* set to default to use discord icon, on to use custom icon, off to disable completely */
-    	--dms-icon-svg-url: url('https://github.com/shveris/shadow-themed-vencord.css/blob/main/shadow-icon.svg'); /* icon svg url. MUST BE A SVG. */
-    	--dms-icon-svg-size: 90%; /* size of the svg (css mask-size) */
-    	--dms-icon-color-before: hsl(346, 100%, 94%); /* normal icon color */
-    	--dms-icon-color-after: hsl(346, 100%, 94%) /* icon color when button is hovered/selected */
+/* direct messages moon icon */
+	--discord-icon: none; /* discord icon */
+	--moon-icon: block; /* moon icon */
+	--moon-icon-url: url("https://raw.githubusercontent.com/shveris/shadow-themed-vencord.css/refs/heads/main/shadow-icon.png");
+	--moon-icon-size: cover;
 
     /* dms button background options */
     	--dms-background: off; /* off to disable, image to use a background image, color to use a custom color/gradient */
