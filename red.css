@@ -37,7 +37,7 @@ body {
 /* direct messages moon icon */
 	--discord-icon: none; /* discord icon */
 	--shadow-icon: block; /* shadow icon */
-	--shadow-icon-url: url("https://raw.githubusercontent.com/shveris/shadow-themed-vencord.css/refs/heads/main/shadow-icon.png");
+	--shadow-icon-url: url("https://github.com/shveris/shadow-themed-vencord.css/blob/543184937bd7a656171d6ad2e880fac5e82d6bc0/shadow-icon.png");
 	--shadow-icon-size: cover;
 
     /* dms button background options */
